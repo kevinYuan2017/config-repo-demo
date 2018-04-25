@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kevinYuan2017/config-repo-demo.git
+          username: zkyspace@163.com
+          password: PAz004911
+server:
+  port: 1201
+  
